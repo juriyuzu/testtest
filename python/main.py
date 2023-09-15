@@ -1,5 +1,5 @@
 def main():
-    x = int(input("Type a number: "))
+    x = int(input("Type an integer: "))
 
     for i in range(x + 2):
         print()
