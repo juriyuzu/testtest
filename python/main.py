@@ -1,9 +1,7 @@
 def main():
-    print("Type a number:")
-    x = int(input())
-    y = 1
+    x = int(input("Type a number: "))
 
-    for i in range(x):
+    for i in range(x + 2):
         print()
         for j in range(1, i):
             print(j, end="")
