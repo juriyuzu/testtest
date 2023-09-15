@@ -1,5 +1,5 @@
 def main():
-    print("hjlkjhlkjhlkjh")
+    print("hey")
     myVar = input()
     print(myVar + " lmao")
 
