@@ -1,10 +1,13 @@
 def main():
     x = int(input("Type an integer: "))
-
-    for i in range(x + 2):
-        print()
-        for j in range(1, i):
-            print(j, end = "")
+    print()
+    
+    a = 1
+    for i in range(x):
+        print(' ' * (x + 1 - i) + '*' * a)
+        print(' ' * (x - i) + '*' * (a + 2))
+        print(' ' * (x - 1 - i) + '*' * (a + 4))
+        a += 2
 
 
 
